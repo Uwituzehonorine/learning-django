@@ -1,0 +1,40 @@
+{% extends "accounts/main.html" %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   
+
+{% block content %}
+    <div class="row-product">
+        <div class="col-md">
+            <div class="card card-body">
+                <h4>Products</h4>
+            </div>
+            <div class="card card-body">
+                <table class="table" style="width:50%">
+                    <tr>
+                        <th>Product</th>
+                        <th>Category</th>
+                        <th>Price</th>
+                    </tr>
+                    <tr>
+                        <td>chocolate</td>
+                        <td>first-class</td>
+                        <td>2000</td>
+                    </tr>
+
+                </table>
+            </div>
+        </div>
+    </div>
+    
+{% endblock %}    
+</body>
+</html>
